@@ -204,7 +204,23 @@ height: 300px;
 /* User profile card ends */
 
 
+/* calculator starts  */
 
+.calc {
+  text-align: center;
+}
+ 
+.calc-box  {  
+background-color:#0c0f0e;  
+height:300px;  
+width:250px;  
+border-radius:10px;  
+position:relative;  
+top:80px;  
+left:40%;  
+} 
+
+/* calculator ends */
 
 
 
