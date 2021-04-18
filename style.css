@@ -500,18 +500,13 @@ padding-top: 20px;
 
  /* Responsive columns */
  @media only screen and (max-width: 750px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
 
   header {
    position: relative;
   }
 
   header ul {
-  width: 100px;
+  width: 100%;
   background: rgb(68, 68, 68);
   max-height: 0px;
   overflow: hidden;
@@ -555,6 +550,12 @@ padding-top: 20px;
     height: inherit;
     margin-left: .8em;
     padding-left: 25px;
+  }
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 
 }
