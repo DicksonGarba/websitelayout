@@ -499,7 +499,7 @@ padding-top: 20px;
 
 
  /* Responsive columns */
- @media only screen and (max-width: 750px) {
+ @media only screen and (max-width: 950px) {
 
   header {
    position: relative;
