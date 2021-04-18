@@ -2,10 +2,16 @@
 
 <html lang="en"></html>
 
-<head
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee834c0a9b.js" crossorigin="anonymous"></script>
+
+    <title>BLOG</title>
 
 </head>
 
@@ -17,8 +23,53 @@
 
   <div class="page-wrapper">
 
+<!-- Beginning of Navbar -->
+<header>
 
-    <div>
+<div class="logo">
+
+  <a href="home.html"><img src="logo.jpg"/></a>
+
+</div>
+
+<i class="fa fa-bars menu-toggle"></i>
+
+<ul class="nav">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="single.html">Single Post</a></li>
+      <li>
+        <a href="#">Other Applications
+        <i class="fa fa-chevron-down"></i>      
+        </a>
+        <ul>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+
+      <li><a href="#">
+        <i class="fa fa-user"></i>
+        Dickson Garba
+        <i class="fa fa-chevron-down"></i>      
+      </a>
+        <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#" class="logout">Logout</a></li>
+        </ul>
+      </li>
+</ul>
+
+</header>
+
+
+
+
+    <!-- <div>
     
         <ul class="nav">
             <div class="logo">
@@ -38,7 +89,10 @@
           <li><a>Gallery</a></li>
           <li><a>Contact</a></li>
         </ul>
-    </div>
+    </div> -->
+
+<!-- Ending of Navbar -->
+
 <br>
 <section class="blog">
 
@@ -244,6 +298,14 @@
 </div>
 </div>
 </footer>
+
+<!-- jquery starts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js" integrity="sha512-HNbo1d4BaJjXh+/e6q4enTyezg5wiXvY3p/9Vzb20NIvkJghZxhzaXeffbdJuuZSxFhJP87ORPadwmU9aN3wSA==" crossorigin="anonymous"></script>
+
+<!-- click action -->
+<script src="script.js">
+
+</script>
 
 </body>
 </html>
