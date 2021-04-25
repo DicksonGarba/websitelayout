@@ -421,7 +421,7 @@ padding-top: 20px;
       .content .main-content .post {
         width: 100%;
       }
- }
+ 
 
  /* footer */
 
@@ -441,6 +441,7 @@ padding-top: 20px;
   width: 100%;
 }
 
+}
 
  @media only screen and (max-width: 750px) {
 
