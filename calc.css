@@ -23,16 +23,18 @@
     height: 150px;
     padding: 20px;
   }
-
-  .calc-display input {  
-height:70px;  
-width: 100%;
-color:black;  
-background-color:#ceced1;  
-font-size:21px;  
-text-align:right; 
-border-radius: 10px;
-} 
+  .text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    color: wheat;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+    }
   
   .calc-operation {
     text-align: right;
